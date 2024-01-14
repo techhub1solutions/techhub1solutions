@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your IT Company</title>
+    <!-- Add Bootstrap CDN links for styling -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.7.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Add Font Awesome CDN link for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fff;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #c82333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #343a40;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 40px 0;
+        }
+
+        footer {
+            background-color: #c82333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .jumbotron {
+            background-color: #dc3545;
+            color: #fff;
+            padding: 60px 0;
+        }
+
+        .feature {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .feature h3 {
+            color: #c82333;
+        }
+
+        .feature p {
+            color: #555;
+        }
+
+        .feature img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .icon {
+            color: #c82333;
+            font-size: 4rem;
+            margin-bottom: 20px;
+        }
+
+        .technologies {
+            background-color: #dc3545;
+            color: #fff;
+            padding: 60px 0;
+        }
+
+        .testimonial {
+            background-color: #343a40;
+            color: #fff;
+            padding: 60px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Your IT Company</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#technologies">Technologies</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home" class="jumbotron">
+        <div class="container">
+            <h2>Welcome to Your IT Company</h2>
+            <p class="lead">We provide cutting-edge IT solutions for your business.</p>
+            <img src="img/home-image.jpg" alt="Office Setup">
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2>About Us</h2>
+                    <p class="lead">Your IT Company is a team of dedicated professionals passionate about delivering innovative IT solutions to businesses of all sizes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2 class="text-center">Our Services</h2>
+            <div class="row">
+                <div class="col-md-4 feature">
+                    <i class="icon fas fa-laptop-code"></i>
+                    <h3>Custom Software Development</h3>
+                    <p>We craft custom software solutions tailored to your business needs, ensuring optimal performance and efficiency.</p>
+                    <img src="img/software-development.jpg" alt="Software Development">
+                </div>
+                <div class="col-md-4 feature">
+                    <i class="icon fas fa-cloud"></i>
+                    <h3>Cloud Computing</h3>
+                    <p>Explore the power of cloud computing with our services, enabling scalability, flexibility, and enhanced collaboration.</p>
+                    <img src="img/cloud-computing.jpg" alt="Cloud Computing">
+                </div>
+                <div class="col-md-4 feature">
+                    <i class="icon fas fa-network-wired"></i>
+                    <h3>Network Solutions</h3>
+                    <p>Secure and robust network solutions to keep your business connected, efficient, and protected.</p>
+                    <img src="img/network-solutions.jpg" alt="Network Solutions">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="technologies" class="technologies">
+        <div class="container">
+            <h2 class="text-center">Technologies We Use</h2>
+            <p class="lead">We stay ahead with the latest technologies to deliver state-of-the-art solutions for our clients.</p>
+            <div class="row">
+                <div class="col-md-4 feature">
+                    <i class="icon fab fa-react"></i>
+                    <h3>ReactJS</h3>
+                    <p>Building dynamic and interactive user interfaces with ReactJS.</p>
+                </div>
+                <div class="col-md-4 feature">
+                    <i class="icon fab fa-node-js"></i>
+                    <h3>Node.js</h3>
+                    <p>Powering scalable and efficient server-side applications with Node.js.</p>
+                </div>
+                <div class="col-md-4 feature">
+                    <i class="icon fab fa-python"></i>
+                    <h3>Python</h3>
+                    <p>Utilizing the versatility of Python for backend development and data science.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonial">
+        <div class="container">
+            <h2 class="text-center">Client Testimonials</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto text-center">
+                    <p class="lead">"Your IT Company exceeded our expectations with their professionalism and technical expertise. The solutions provided have significantly improved our business operations."</p>
+                    <p>- John Doe, CEO</p>
+                </div>
+                <div class="col-md-6 mx-auto text-center">
+                    <p class="lead">"We are impressed with the dedication and commitment of Your IT Company. Their team's problem-solving skills and attention to detail are commendable."</p>
+                    <p>- Jane Smith, CTO</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2>Contact Us</h2>
+                    <p class="lead">Email: info@youritcompany.com</p>
+                    <p class="lead">Phone: (555) 123-4567</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your IT Company. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Add Bootstrap and Popper.js CDN links for functionality -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.7.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Add Font Awesome CDN script -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+</body>
+
+</html>
